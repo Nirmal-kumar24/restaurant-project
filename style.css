@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+.header{
+    display: block;
+    position:sticky;
+    top: 10px;
+    z-index: 3;
+}
+li,h1,ul{
+    display: inline;
+}
+ul{
+   margin-left: 60%;
+}
+li:hover{
+    color: red;
+    cursor: pointer;
+}
+input{
+    width:60%;
+    height: 15px;
+    padding: 15px;
+
+}
+button{
+    height: 50px;
+    width : 70px;
+    color: black;
+    background-color: tomato;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.search{
+    padding: 50px;
+    text-align: center;
+}
+.bgpic{
+    position: relative;
+    z-index: 2;
+
+}
+.box1{
+    padding: 5px;
+    border-color: black;
+    border-style: solid;
+    display: inline-block;
+    width: 410px;
+    margin-left: 11px;
+    margin-top: 10px;
+    border-radius: 20px;
+    
+
+}
+p{
+    background-color: rgb(237, 241, 237);
+    color: rgb(240, 6, 6);
+    text-align: center;
+}
+.products{
+    text-align: center;
+}
+p:hover{
+    background-color: rgb(156, 233, 197);
+    color: rgb(30, 80, 30);
+}
+.box1:hover{
+    border-color: rgb(255, 0, 0);
+}
+.about{
+    text-align: center;
+    margin-top: 20px;
+}
+.about p{
+    color: black;
+    background-color: white;
+    padding-bottom: 20px;
+}
+.contact{
+    background-color: #89a0df;
+    text-align: center;
+    padding: 30px;
+    color: rgb(255, 14, 114);
+}
+.contact h1{
+    color: black;
+    
+}
+.contact h6{
+    background-color:#89a0df ;
+    padding-top: 30px;
+}
